@@ -17,7 +17,7 @@
             <span class="bi bi-card-list"></span> Vezi serviciile
           </NuxtLink>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 d-flex gap-2">
           <span class="badge badge-soft me-2 mb-2"><span class="bi bi-shield-lock"></span> Confidențialitate</span>
           <span class="badge badge-soft me-2 mb-2"><span class="bi bi-stopwatch"></span> Răspuns rapid</span>
           <span class="badge badge-soft mb-2"><span class="bi bi-trophy"></span> Cazuri câștigate</span>
