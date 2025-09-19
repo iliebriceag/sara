@@ -1,5 +1,14 @@
 export default defineNuxtConfig({
   ssr: true,
+    routeRules: {
+    '/**': { prerender: true }   // prinde tot în generate
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,          // urmărește link-urile interne
+      failOnError: false         // NU pica build-ul la o rută ratată
+    }
+  },
   app: {
     head: {
       htmlAttrs: { lang: 'ro' },

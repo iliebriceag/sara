@@ -36,7 +36,6 @@
             <li><NuxtLink to="/servicii#munca">Dreptul muncii</NuxtLink></li>
             <li><NuxtLink to="/servicii#contraventional">Contravențional</NuxtLink></li>
             <li><NuxtLink to="/servicii#executare">Executare silită</NuxtLink></li>
-            <li><NuxtLink to="/servicii#imobiliar">Imobiliar</NuxtLink></li>
           </ul>
 
           <h6 class="fw-bold mt-4 mb-2">Linkuri utile</h6>
@@ -98,11 +97,8 @@
       <div class="fade-sep my-4" aria-hidden="true"></div>
 
       <!-- sub-footer -->
-      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 small text-muted">
-        <span>© {{ new Date().getFullYear() }} {{ firmName }} — Toate drepturile rezervate</span>
-        <div class="d-flex align-items-center gap-3">
-          <span class="lll">###</span>
-        </div>
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-2 small text-muted">
+        <span>© {{ new Date().getFullYear() }} {{ firmName }} - Toate drepturile rezervate</span>
       </div>
     </div>
   </footer>
